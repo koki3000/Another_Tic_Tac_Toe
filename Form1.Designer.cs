@@ -188,6 +188,7 @@
             // 
             // CPUtimer
             // 
+            this.CPUtimer.Interval = 500;
             this.CPUtimer.Tick += new System.EventHandler(this.CPUmove);
             // 
             // Form1
